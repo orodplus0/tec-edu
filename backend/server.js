@@ -21,7 +21,7 @@ const io = new Server(server, {
 });
 
 // Conexão com MongoDB (use sua string de conexão)
-const MONGO_URI = "mongodb+srv://<gersondasilva2_db_user>:<lvdqKA7E4QwnZJ58>@orodplus...mongodb.net/?retryWrites=true&w=majority"; // SUBSTITUA PELA SUA STRING DE CONEXÃO
+const MONGO_URI = "mongodb+srv://gersondasilva2_db_user:<lvdqKA7E4QwnZJ58>@orodplus.hrkeljh.mongodb.net/?retryWrites=true&w=majority&appName=orodplus"; // SUBSTITUA PELA SUA STRING DE CONEXÃO
 mongoose.connect(MONGO_URI).then(() => console.log("MongoDB conectado")).catch(err => console.log(err));
 
 // --- API Endpoints ---
